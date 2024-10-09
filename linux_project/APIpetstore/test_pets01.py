@@ -4,7 +4,7 @@ from utils.apiutils import getAPIData, postAPIData
 from utils.myconfigparser import getPetAPIURL
 
 baseURI = getPetAPIURL()
-petID = '198'
+petID = '200'
 
 @pytest.fixture
 def add_pet():
